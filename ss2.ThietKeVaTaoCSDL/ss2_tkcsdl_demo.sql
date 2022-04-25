@@ -24,7 +24,7 @@ point int,
 `account` varchar(50),
 class_id int,
 foreign key(`account`) references jame(`account`),
-foreign key(class_id) references jame(id)
+foreign key(class_id) references class(id)
 );
 create table instructor(
 id int auto_increment primary key,
