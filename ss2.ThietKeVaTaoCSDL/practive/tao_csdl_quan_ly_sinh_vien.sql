@@ -32,3 +32,4 @@ unique(sub_id,student_id),
 foreign key(sub_id) references subject(sub_id),
 foreign key(student_id) references student(student_id)
 );
+
