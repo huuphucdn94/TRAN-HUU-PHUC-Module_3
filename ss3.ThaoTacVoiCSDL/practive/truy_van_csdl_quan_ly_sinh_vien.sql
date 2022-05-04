@@ -12,3 +12,4 @@ from student join class on student.class_id = class.class_id;
 
 select student.student_id, student.student_name, class.class_id 
 from student join class on student.class_id = class.class_id where class.class_name = 'A1';
+
